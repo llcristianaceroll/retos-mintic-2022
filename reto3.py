@@ -22,8 +22,33 @@ def run():
         letra_anterior = letras
 
     print(*lista_letras)
-    print(*numero_letras)      
+    print(*numero_letras)     
+
+    
+    # vacunas = input('Ingrese la letras de la vacunas aplicadas: ')
+    # vacunas = vacunas.strip()
+    # vacunas = vacunas.upper()
+    # vacunas = vacunas.replace(' ', '')
+
+    # count = 1 
+    # cadena1 = []
+    # numero = []
+    
+
+    # for i in range(len(vacunas)):
+    #     if vacunas[i-1] == vacunas[i]:
+    #         count += 1
+    #         numero.append(count)
+
+    #     else:
+    #         cadena1.append(vacunas[i])
+    #         count = 1
             
+        
+
+    # print(*cadena1)
+    # print(*numero)
+             
 
 if __name__ ==  '__main__':
     run()
